@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=e">
+        <meta name="viewport" content="width=device-width">
+        <title>Website TTS</title>
+
+        <!--FONTS-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet"/>
+
+        <!--FEATHER ICONS-->
+        <script src="https://unpkg.com/feather-icons"></script>
+
+        <!--CSS-->
+        <link rel="stylesheet" href="css/style.css"/>
+
+    </head>
+    
+    <body>
+        <!--NAVBAR-->
+        <nav class="navbar">
+            <a href="#" class="navbar-logo">CS<span>Coffee</span></a>
+
+            <div class="navbar-nav">
+                <a href="index.html#home">Home </a>
+                <a href="about.html#about">About </a>
+                <div class="dropdown">
+                    <button class="dropbtn">Menu </button>
+                    <div class="dropdown-content">
+                      <a href="#">Toko</a>
+                      <a href="#">Reservasi</a>
+                    </div>
+                  </div> 
+                <div class="dropdown">
+                    <button class="dropbtn">Contact </button>
+                    <div class="dropdown-content">
+                      <a href="https://web.facebook.com/justin.clarence.9"><i data-feather="facebook"></i>Facebook</a>
+                      <a href="https://www.instagram.com/justin.clarence.925/?hl=en"><i data-feather="instagram"></i>Instagram</a>
+                    </div>
+                </div> 
+            </div>
+            <div class="search-container">
+                <form action="/search" method="get">
+                  <input class="search expandright" id="searchright" type="search" name="q" placeholder="Search">
+                  <label class="button searchbutton" for="searchright"><i data-feather="search"></i></label>
+                </form>
+              </div>  
+            <div class="navbar-icon">                             
+                <a href="https://kopikenangan.com/" id="shopping"><i data-feather="shopping-cart"></i></a>
+                <a href="#menu" id="menu"> <i data-feather="menu"></i></a>
+            </div>           
+        </nav>
+
+        <img src="/image/download.jfif" alt="Download" usemap="#image-map">
+        <map name="image-map">
+            <area shape="circle" coords="800,400,300" href="about.html">
+        </map>
+        <!--BANNER-->
+        <section class="banner" id="home">
+            <main class="konten">
+                <h1>CS<span>Coffee</span></h1>
+                <p>Ngopi Yuk!</p>                
+            </main>     
+        </section>
+
+        <!--FEATHER ICONS-->
+        <script>
+            feather.replace()
+        </script>
+
+        <!--JAVASCRIPT-->
+        <script src="js/javascript.js"> </script>
+    </body>
+</html>
