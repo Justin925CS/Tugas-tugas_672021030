@@ -1,0 +1,4 @@
+﻿  Source.cpp
+D:\Tugas\Dasar- dasar Pemrograman\Tugas\Program\Tugas2\Tugas2\Source.cpp(3,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
+Source1.obj : error LNK2005: _main already defined in Source.obj
+D:\Tugas\Dasar- dasar Pemrograman\Tugas\Program\Tugas2\Debug\Tugas2.exe : fatal error LNK1169: one or more multiply defined symbols found
